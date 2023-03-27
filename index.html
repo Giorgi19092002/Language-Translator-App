@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="from-text" placeholder="Enter Text"></textarea>
+                <textarea class="to-text" placeholder="Translation" readonly disabled></textarea>
+            </div>
+            <ul class="controls">
+                <li class="row form">
+                    <div class="icons">
+                        <i id="from" class="bi bi-volume-up"></i>
+                        <i id="from" class="bi bi-clipboard"></i>
+                    </div>
+                    <select>
+                    </select>
+                </li>
+                <li class="exchange"><i class="fa fa-exchange" aria-hidden="true"></i></li>
+                <li class="row to">
+                    <select>
+                    </select>
+                    <div class="icons">
+                        <i id="to" class="bi bi-volume-up"></i>
+                        <i id="to" class="bi bi-clipboard"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button>Translate Text</button>
+    </div>
+
+
+
+
+
+
+    </body>
+
+    <script src="js/countries.js"></script>
+  <script src="js/script.js"></script>
+</html>
